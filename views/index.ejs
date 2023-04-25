@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChefGPT</title>
+</head>
+<body>
+  <h1>ChefGPT</h1>
+  <form action="/" method="post">
+    <label for="cuisine">Cuisine</label>
+    <input type="text" name="cuisine"><br><br>
+    <label for="ingredients">Ingredients</label>
+    <input type="text" name="ingredients"><br><br>
+    <label for="time">Time</label>
+    <input type="text" name="time"><br><br>
+    <button type="submit" name="button">Give me a recipe!</button>
+  </form>
+  <div class="recipe_desc">
+    <p><%=output%></p>
+  </div>
+</body>
+</html>
